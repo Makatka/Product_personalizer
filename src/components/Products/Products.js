@@ -5,7 +5,6 @@ import shortid from 'shortid';
 
 const Products = () => {
   const [products] = useState(productsData);
-  console.log(products);
 
 
   return (
