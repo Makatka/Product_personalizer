@@ -1,4 +1,4 @@
-import styles from "../ProductForm.module.scss";
+import styles from "./OptionColor.module.scss"
 import shortid from "shortid";
 import clsx from "clsx";
 

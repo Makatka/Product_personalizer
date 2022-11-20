@@ -1,15 +1,5 @@
 @use 'sass:math';
-@import '../../../styles/settings.scss';
-
-
-.name {
-  margin: $base-size 0;
-  font-size: $base-size * 3;
-}
-
-.price {
-  font-size: $base-size * 1.5;
-}
+@import '../../../../styles/settings.scss';
 
 .optionLabel {
   margin: $base-size 0;
@@ -41,34 +31,8 @@
       transform: scale(1.2);
       background: rgb(47, 53, 66);
     }
-
-    &.colorBlack {
-      background: #000;
-    }
-
-    &.colorRed {
-      background: #e74c3c;
-    }
-
-    &.colorWhite {
-      background: #fff;
-    }
-
-    &.colorBlue {
-      background: #3498db;
-    }
-
-    &.colorGreen {
-      background: #2ecc71;
-    }
-
-    &:first-child {
-      margin-left: 0;
-    }
   }
-
 }
-
-.sizes .choices button:hover{
-  background: rgb(47, 53, 66);
-}
+  .sizes .choices button:hover {
+    background: rgb(47, 53, 66);
+  }
